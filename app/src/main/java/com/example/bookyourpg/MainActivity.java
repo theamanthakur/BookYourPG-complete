@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
     private static int currentPage = 0;
     private static int NUM_PAGES = 0;
 
-    private String[] urls = new String[]{"https://4.imimg.com/data4/XP/JB/MY-29402471/pg-rooms-500x500.jpg", "https://demonuts.com/Demonuts/SampleImages/W-08.JPG", "https://demonuts.com/Demonuts/SampleImages/W-10.JPG",
-            "https://demonuts.com/Demonuts/SampleImages/W-13.JPG", "https://demonuts.com/Demonuts/SampleImages/W-17.JPG", "https://demonuts.com/Demonuts/SampleImages/W-21.JPG"};
+    private String[] urls = new String[]{"https://backgroundimages.withfloats.com/actual/585c238a1f07f509f0ab114c.jpg","https://4.imimg.com/data4/XP/JB/MY-29402471/pg-rooms-500x500.jpg", "https://files.qatarliving.com/2019/04/11/Rent-room-stockholm.jpg", "https://q-ak.bstatic.com/images/hotel/max1024x768/120/120254697.jpg",
+            "https://qphs.fs.quoracdn.net/main-qimg-b017a797a40123831b6d92ce3c3f4e44", "https://tuffclassified.com/oc-content/uploads/11786/1180695_preview.jpg", "https://glimageurl.golocall.com/golocal-post/image/36919_1475569517.jpeg"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
