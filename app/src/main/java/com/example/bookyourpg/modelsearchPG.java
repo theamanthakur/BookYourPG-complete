@@ -4,8 +4,8 @@ public class modelsearchPG {
     private int image;
     private String title,details,price;
 
-    public modelsearchPG(int image, String title, String details, String price) {
-    }
+//    public modelsearchPG(int image, String title, String details, String price) {
+//    }
 
     public int getImage() {
         return image;
