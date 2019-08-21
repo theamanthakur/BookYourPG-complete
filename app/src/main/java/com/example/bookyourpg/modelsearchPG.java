@@ -7,6 +7,13 @@ public class modelsearchPG {
 //    public modelsearchPG(int image, String title, String details, String price) {
 //    }
 
+    public modelsearchPG(int image, String title, String details, String price) {
+        this.image = image;
+        this.title = title;
+        this.details = details;
+        this.price = price;
+    }
+
     public int getImage() {
         return image;
     }
