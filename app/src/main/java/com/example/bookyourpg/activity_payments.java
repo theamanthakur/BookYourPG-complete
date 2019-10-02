@@ -1,17 +1,14 @@
 package com.example.bookyourpg;
 
-import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DetailPg extends AppCompatActivity {
+import android.os.Bundle;
+
+public class activity_payments extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_pg);
-
-
-
-
-       }
+        setContentView(R.layout.activity_payments);
+    }
 }

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activity_payments">
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageViewService"
+            android:layout_width="120dp"
+            android:background="@drawable/paytmlogo"
+            android:layout_height="120dp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/providename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/imageViewService"
+            android:text="Paytm"
+            android:textSize="25dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/serviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/providename"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/imageViewService"
+            android:text="9999554528"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageViewService1"
+            android:layout_width="120dp"
+            android:background="@drawable/phonepaylogo"
+            android:layout_height="120dp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/providename1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/imageViewService1"
+            android:text="PhoenPay"
+            android:textSize="25dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/serviceName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/providename1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/imageViewService1"
+            android:text="9999554528"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
